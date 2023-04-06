@@ -1,0 +1,187 @@
+body{
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-attachment: fixed;
+    background-size: cover;
+}  
+
+
+.navbar{
+    /* background-color: rgb(255, 255, 255); */
+    opacity: 90%;
+    overflow: hidden;
+    height: 150px;
+    
+}
+
+.navlogo{
+ height: 10px;
+ margin: 10px 0px 0px 100px;
+}
+
+.navbar a{
+    float: right;
+    color: white;
+    padding: 10px 20px;
+    font-size: 21px;
+    text-decoration: none;
+    margin-right: 10%;
+    font-family: monospace;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50px;
+}
+
+.dd{
+    width: 200px;
+    margin-bottom: 10px;
+    padding: 0px;
+
+}
+
+
+.content{
+    background-color: rgb(255, 255, 255, 0.05);
+    color: rgb(0, 0, 0);
+    height: 300px;
+    width: 100%;
+    padding: 0px;
+    left: 0;
+    display: flex;
+    margin-top: 50%;
+    opacity: 100%;
+}
+
+form{
+    margin-top: 3%;
+    margin-left: 5%;
+
+}
+.topic button{
+    margin-top: 0px;
+    opacity: 100%;
+    
+}
+.topic h3{
+    margin: 0px;
+    
+}
+button{
+    background-color: rgb(0, 0, 0,0);
+    color: white;
+    height: 50px;
+    border-color: rgb(213, 32, 32);
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: Verdana;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 35px;
+    width: 100px;
+    margin-top: 2%;
+    font-family: monospace;
+}
+
+button:hover{
+    background-color:rgb(213, 32, 32);
+    color: black;
+    font-weight: bolder;
+}
+.submit{
+    margin-top: 5%;
+    color: rgb(255, 255, 255);
+    padding: 5px 18px;
+    background-color: rgb(213, 32, 32);
+    font-size: 18px;
+    border-color: rgb(213, 32, 32);
+    font-family: lucida sans;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 43.5%;
+    font-weight: 50px;
+    background-color: none;
+    border-radius: 35px;
+    
+}
+.submit:hover{
+    background-color: rgb(213, 32, 32);
+    color: rgb(0, 0, 0);
+    border-radius: 35px;
+}
+
+.selected-color {
+    background-color: rgb(213,32,32);
+  }
+
+label[for="email"]
+{
+    margin-left: 22px;
+    margin-right: 8px;
+    font-weight: 100px;
+    font-family: lucida sans;
+    font-size: 22px;
+    padding-top: 15px;
+    color: rgb(213, 32, 32);
+
+}
+
+input[type = "email"]{
+padding-right: 320px;
+background-color: rgb(0, 0, 0, 0.5);
+padding-top: 10px;
+padding-bottom: 8px;
+padding-left: 5px;
+margin-bottom: 20px;
+font-family: Lucida Sans;
+border-color: rgb(255, 255, 255);
+border-radius: 8px;
+color: rgb(255, 255, 255,0.8);
+}
+
+/*Text typing*/
+#typing-heading {
+    font-size: 36px;
+    text-align: center;
+    color: rgb(213, 32, 32);
+    border-right: 2px;
+    font-size: 65px;
+    padding-right: 10px;
+    font-family: Lucida Sans;
+    animation: typing 3s steps(30), blink-caret .5s step-end infinite;
+    }
+
+#news{
+    color: white;
+    margin-top: 150px;
+    text-align: center;
+    font-family: lucida Sans ;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.signup{
+    background-color: rgb(0, 0, 0, 0);
+    margin-left: 47%;
+    font-family: lucida Sans;
+}
+
+.fetch{
+    font-size: 60px;
+    font-family: lucida sans;
+    padding-top: 15%;
+    padding-left: 35%;
+    color: rgb(255, 255, 255);
+}
+
+.fetchnews{
+    text-align: center;
+    margin-left: 40%;
+    
+}
+
+#newsbody{
+    background-color: black;
+    align-items: center;
+}

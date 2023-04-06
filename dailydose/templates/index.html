@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="navlogo">
+                <img class="dd" src="./static/dd4logo.png" alt="">
+                
+            </div>
+        </div>
+    </header>
+
+    {% comment %} Typing text effect {% endcomment %}
+    <h1 id="news">N E W S&nbsp;&nbsp;R E L A T E D&nbsp;&nbsp;T O&nbsp; </h1>
+    <h1 id="typing-heading"><span>&nbsp;</span></h1>
+
+
+    <button class="signup" onclick="scrollToBottom();">Sign Up</button>
+
+
+    <div class="content">
+        <form id="form">
+            {% csrf_token %}
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <div class="topic">
+                <button>General</button>
+                <button>Sports</button>
+                <button>Technology</button>
+                <button>Health</button>
+                <button>Business</button>
+            </div>
+            <input type="submit" value="Submit" class="submit">
+        </form>
+    </div>
+
+    <div class="footer">
+
+    </div>
+    <script src="./static/script.js"></script>
+</body>
+</html>

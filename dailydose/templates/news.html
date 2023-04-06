@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch News</title>
+    <link rel="stylesheet" type="text/css" href="/serve_css/">
+
+</head>
+<body id = "newsbody">
+    <h1 class = "fetch">Fetch News</h1>
+    <form action="{% url 'fetch_news' %}" method="post">
+        {% csrf_token %}
+        <button class="fetchnews" type="submit">Api Call</button>
+    </form>
+</body>
+</html>
